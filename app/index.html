@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	
+
+	<title>Test_Front-End_Tochoniy</title>
+	
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<!-- Template Basic Images Start -->
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="icon" href="img/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+	<!-- Template Basic Images End -->
+	
+	<!-- Custom Browsers Color Start -->
+	<meta name="theme-color" content="#000">
+	<!-- Custom Browsers Color End -->
+
+	<link rel="stylesheet" href="css/main.min.css">
+
+</head>
+
+<body>
+
+	<header class="header">
+
+		<button class="toggle_button"><img src="img/svg/hamburger.svg" alt="alt"></button>
+		
+		<div><a class="header__logo text-center" href="#">sociotrack</a></div>
+		<div class="header__icons">
+			<ul>
+				<li>
+					<div class="header__messageQuantity">
+						<a href="#"><img src="img/svg/bell.svg" alt="alt"></a>
+						<div id="messageQuantity" class="text-center">2</div>
+					</div>
+				</li>
+				<li>
+					<div><a href="#"><img src="img/svg/search.svg" alt="alt"></a></div>
+				</li>
+			</ul>
+		</div>
+	</header>
+
+	<main>
+		<aside class="sideBar">
+			<div class="sideBar__person">
+				<div class="sideBar__personImg"><img src="img/photo1.jpg" alt="photo"></div>
+				<div class="sideBar__personName">Abhisec Das</div>
+				<div class="sideBar__personFollowers">10,986 Followers</div>
+			</div>
+			<div class="sideBar__mainSection">
+				<div class="sideBar__mainSectionItem"><img src="img/svg/dashboard-icon.svg" alt="alt"><a href="#">Dashboard</a></div>
+				<div class="sideBar__mainSectionItem"><img src="img/svg/social-feed-icon.svg" alt="alt"><a href="#">Social Feed</a></div>
+				<div class="sideBar__mainSectionItem"><img src="img/svg/invite-friends-icon.svg" alt="alt"><a href="#">Invite Friends</a></div>
+				<div class="sideBar__mainSectionItem"><img src="img/svg/settings-icon.svg" alt="alt"><a href="#">Settings</a></div>
+				<div class="sideBar__mainSectionItem"><img src="img/svg/log-out-icon.svg" alt="alt"><a href="#">Log out</a></div>
+			</div>
+			<div class="sideBar__footerSection">
+				<div class="sideBar__footerSectionLine1">
+					<div class="sideBar__footerSectionItem"><a href="#">About</a></div>
+					<div class="sideBar__footerSectionItem"><a href="#">Teems</a></div>
+					<div class="sideBar__footerSectionItem"><a href="#">Privacy</a></div>
+				</div>
+				<div class="sideBar__footerSectionLine2">
+					<div class="sideBar__footerSectionItem"><a href="#">Help</a></div>
+					<div class="sideBar__footerSectionItem"><a href="#">Report</a></div>
+				</div>
+			</div>
+		</aside>
+
+		<div class="mainContent">
+			<div class="mainContent__wrap">
+				<div class="mainContent__head">
+					<h2>@abhisek.das</h2>
+					<button class="button js-button-campaign">+ Add social profile</button>
+				</div>
+<!-- popUp start -->
+				<div class="overlay js-overlay-campaign hidden">
+					<form class="popup js-popup-campaign">
+						<fieldset>
+							<h3>Add Social Profile</h3>
+							<p>Add new social profile for tracking</p>
+							<h4>URL</h4>
+							<input type="text" placeholder="https:/twitter.com/username">
+							<button class="popup-form__button">Lookup</button>
+							<div class="close-popup js-close-campaign">x</div>
+						</fieldset>
+					</form>
+				</div>
+<!-- popUp end -->
+				<div class="wrapper">
+					<div class="tabs">
+						<span class="tab">Last day</span>
+						<span class="tab">Week</span>
+						<span class="tab">Month</span>        
+					</div>
+					<div class="tab_content">
+						<div class="tab_item">
+							
+							<div class="line1">
+								
+								<div class="tab_item__content">
+									<div class="content__wrap facebook_bg">
+										<div><img class="content__img" src="img/svg/Facebook-color.svg" alt="alt"></div>
+										<div class="facebook"></div>
+									</div>
+									<div class="profile__wrap">
+										<div class="facebook-profile"></div>
+									</div>
+								</div>
+
+								<div class="tab_item__content ">
+									<div class="content__wrap twitter_bg">
+										<div><img class="content__img" src="img/svg/Twitter-color.svg" alt="alt"></div>
+										<div class="twitter"></div>
+									</div>
+									<div class="profile__wrap">
+										<div class="twitter-profile"></div>
+									</div>
+								</div>
+								
+								<div class="tab_item__content">
+									<div class="content__wrap instagram_bg">
+										<div><img class="content__img" src="img/svg/Instagram-color.svg" alt="alt"></div>
+										<div class="instagram"></div>
+									</div>
+									<div class="profile__wrap">
+										<div class="instagram-profile"></div>
+									</div>
+								</div>
+								
+								<div class="tab_item__content">
+									<div class="content__wrap linkedin_bg">
+										<div><img class="content__img" src="img/svg/LinkedIn-color.svg" alt="alt"></div>
+										<div class="linkedin"></div>
+									</div>
+									<div class="profile__wrap">
+										<div class="linkedin-profile"></div>
+									</div>
+								</div>
+							</div>
+
+							<div class="line2">
+								
+								<div class="tab_item__content ">
+									<div class="content__wrap youtube_bg">
+										<div><img class="content__img" src="img/svg/Youtube-color.svg" alt="alt"></div>
+										<div class="youtube"></div>
+									</div>
+									<div class="profile__wrap">
+										<div class="youtube-profile"></div>
+									</div>
+								</div>
+								
+								<div class="tab_item__content">
+									<div class="content__wrap snapchat_bg">
+										<div><img class="content__img" src="img/svg/snapchat.svg" alt="alt"></div>
+										<div class="snapchat"></div>
+									</div>
+									<div class="profile__wrap">
+										<div class="snapchat-profile"></div>
+									</div>
+								</div>
+								
+								<div class="tab_item__content">
+									<div class="content__wrap google_bg">
+										<div><img class="content__img" src="img/svg/GooglePlus-color.svg" alt="alt"></div>
+										<div class="google"></div>
+									</div>
+									<div class="profile__wrap">
+										<div class="google-profile"></div>
+									</div>
+								</div>
+								
+								<div class="tab_item__content ">
+									<div class="content__wrap vine_bg">
+										<div><img class="content__img" src="img/svg/Vine-color.svg" alt="alt"></div>
+										<div class="vine"></div>
+									</div>
+									<div class="profile__wrap">
+										<div class="vine-profile"></div>
+									</div>
+								</div>
+							</div>
+	
+						</div>
+						<div class="tab_item">Содержимое 2</div>
+						<div class="tab_item">Содержимое 3</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</main>
+
+
+	
+	<script src="js/scripts.min.js"></script>
+
+</body>
+</html>
